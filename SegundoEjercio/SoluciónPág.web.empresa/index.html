@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Bloj</title>
+</head>
+<body>
+    
+    <h1>Maison Bloj</h1>  
+    <a href="https://www.loftcero.com/?gad_source=1&gad_campaignid=21493250384&gbraid=0AAAAAC0cUG7E6a5G3FBoJ5r1x8K0lwdB9&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq6wo0Whp_9XA8r_oa_A2H487VbZ_-PQiRZb6Ozn7q1oySZDoxNRZYYBoCeGwQAvD_BwE "target="_blank">Clik para ir a Loftcero.</a>
+    <img src="cocina.jpg" width="200" height="200" alt="Foto de una cocina">
+    <form id="contact-form">
+        <fieldset>
+           <legend>Datos básico</legend>
+           <label>Nombre: 
+            <input type="text" placeholder="Escribe aquí tu nombre" required>
+            <p></p>
+            <label>Email:
+                <input type="email" placeholder="Escribe aquí tu email">
+            </label> 
+             <p></p>
+            <label>Teléfono:
+                <input type="tel"placeholder="Escribe aquí tu teléfono">
+            </label>
+            <p></p>
+            <label>Fecha de nacimiento: 
+                <input type="date" placeholder="Escribe aquí tu fecha de nacimiento">
+            </label>
+            <p></p>
+           </label> 
+        </fieldset>
+        <fieldset>
+            <legend>Tipos de cocinas:</legend>
+            <fieldset>
+                <input type="radio" name="tipos de cocinas" value="Tradicional" checked>
+                <label>Tradicional</label>
+                <input type="radio" name="tipos de cocinas" value="Moderna">
+                <label>Moderna</label>
+                <input type="radio" name="tipos de cocina" value="Ecléctico">
+                <label>Ecléctico</label>
+                <input type="radio" name="tipos de cocina" value="Costero">
+                <label>Costero</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Distribuciones de isla </legend>
+            <fieldset>
+                <input type="checkbox" name="Distribuciones de isla" value="Mármol">
+                <label>Mármol</label>
+                <input type="checkbox" name="Distribuciones de isla" value="Madera">
+                <label>Madera</label>
+                <input type="checkbox" name="Distribuciones de isla" value="Porcelánico">
+                <label>Porcelánico</label>
+                <input type="checkbox" name="Distribuciones de isla" value="Acero Inoxidable">
+                <label>Acero Inoxidable</label>
+                <input type="checkbox" name="Distribuciones de isla" value="Laminadas">
+                <label>Laminadas</label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <label>Iluminación</label>
+            <select id="s-iluminacion" name="s-iluminación">
+                <option value="SinOpcion">--------------</option>
+                <option value="Focos de superficie">Focos de superficie</option>
+                <option value="Plafones">Plafones</option>
+                <option value="Regletas de focos">Regletas de focos</option>
+            </select>
+           
+        </fieldset>
+        <fieldset>
+            <legend>Extras</legend>
+                    <label>Sugerencias</label>
+                    <textarea rows="5" cols="40" placeholder="Escribe aquí tus sugerencias"></textarea> 
+        </fieldset>
+    </form>
+</body>
+</html>
